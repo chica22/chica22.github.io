@@ -1,0 +1,77 @@
+
+
+.navbar {
+  overflow: hidden;
+  bgcolor: "#f4c2c2";
+
+   /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  word-spacing: 15px;
+  font-family: Helevetica;
+  font-size: 24px;
+  
+  
+  
+}
+
+.navbar a:hover
+{
+ color:red;
+ background-color: #411900;
+
+}
+  
+.topnav-right {
+  float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #800040;
+}
+body {
+	background-color : #f4c2c2;
+	font-family: tahoma;
+	color: white;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.homeimage{
+ 
+margin-left:100px; 
+margin-right:300px;
+float: right
+}
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 40px;
+  
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 10px;
+  text-align: center;
+}
+.column img {
+  margin-top: 15px;
+  vertical-align: middle;
+  float: center;
+}
+
+.overlay-image{
+	position: absolute;
+	top: 70%;
+	left:17%
+}
+
+
